@@ -13,7 +13,6 @@ const decorationCard = {
               <li>Форма: ${decoration.shape}</li>
               <li>Цвет: ${decoration.color}</li>
               <li>Размер: ${decoration.size}</li>
-              <li>Любимая: ${decoration.favorite}</li>
             </ul>
             <img class="decoration-image" src="assets/toys/${decoration.num}.png"></img>
           </div>  

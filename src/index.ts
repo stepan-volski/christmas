@@ -3,6 +3,7 @@ import './index.scss';
 import Catalogue from './pages/Catalogue'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import evaluation from './evaluation'
 
 const router = async () => {
   const header = null || document.getElementById('header');
@@ -26,3 +27,4 @@ const router = async () => {
 }
 
 router();
+evaluation();

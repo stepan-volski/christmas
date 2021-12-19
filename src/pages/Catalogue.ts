@@ -240,7 +240,7 @@ const Catalogue = {
       sortField.value = localStorage.getItem('sorting') || 'none';
       sort();
 
-      const filters: filters = JSON.parse(localStorage.getItem('filters') || "{color: [], shape: [], size: []}");
+      const filters: filters = JSON.parse(localStorage.getItem('filters') || '{"color": [], "shape": [], "size": []}');
       const { color, shape, size } = filters;
       const allFilters = [...color, ...shape, ...size];
       Array.from(document.querySelectorAll('[data-filter]'))

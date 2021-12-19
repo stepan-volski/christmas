@@ -1,0 +1,27 @@
+.decoration-container {
+  min-height: 25vh;
+  min-width: 20vw;
+  background-color: rgba(106, 161, 125, 0.7);
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.decoration-image{
+  height: 15vh;
+}
+
+.decoration-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.decoration-properties{
+  list-style: none;
+}
+
+.decoration-title{
+padding-bottom: 7px;
+}

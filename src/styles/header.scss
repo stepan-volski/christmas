@@ -1,0 +1,27 @@
+header {
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px;
+  height: 5vh;
+}
+
+.header-menu {
+  & ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  & li {
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+  }
+}

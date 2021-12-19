@@ -1,0 +1,55 @@
+.catalogue{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90vh;
+}
+
+.decorations-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  padding-top: 10px;
+  min-width: 50vw;
+}
+
+.controls-container{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding-top: 10px;
+}
+
+.filters-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter{
+  min-height: 9vh;
+  width: 22vw;
+  background-color: rgba(106, 161, 125, 0.5);
+  backdrop-filter: blur(6px);
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+
+  h4 {
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 2px;
+    border-radius: 5px;
+  }
+}
+
+.no-results{
+  color: white;
+  font-size: 26px;
+}

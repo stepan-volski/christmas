@@ -1,0 +1,139 @@
+.tree {
+  display: flex;
+  color: white;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 30vw;
+  padding: 7px;
+
+  h3{
+    margin: 15px 0 5px 7px;
+  }
+}
+
+.tree-selector {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background-selector {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// .garland-selector{
+//   display: flex;
+// }
+
+.tree-container {
+  display: flex;
+  justify-content: center;
+  min-width: 40vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.toys-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  h3{
+    margin-top: 15px;
+  }
+}
+
+.toys-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30vw;
+  max-height: 60vh;
+}
+
+.cell {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 7px;
+  background-repeat: no-repeat;
+}
+
+.bg-cell {
+  width: 65px;
+  height: 65px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.tree-cell {
+  width: 115px;
+  height: 115px;
+  background-color: rgba(173, 190, 179, 0.7);
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toy-cell {
+  width: 85px;
+  height: 85px;
+  background-color: rgba(173, 190, 179, 0.7);
+  position: relative;
+  padding: 5px;
+  background-size: contain;
+  background-position: center;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.toy-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #278d9f;
+  color: white;
+  font-size: 16px;
+}
+
+.toy{
+  width: 75px;
+  height: 75px;
+  cursor: move;
+}
+
+.controls-icons{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.effect{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 15px;
+}
+
+.sound-effect{
+  background-image: url('assets/snow.png');
+}
+
+.snow-effect{
+  background-image: url('assets/audio.png');
+}
+
+.selected-effect{
+  filter: brightness(50%) sepia(100) saturate(100) hue-rotate(200deg);
+}

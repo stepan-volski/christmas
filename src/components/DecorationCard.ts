@@ -1,4 +1,4 @@
-import Decoration from '../entity/Decoration';
+import Decoration from './Decoration';
 
 const decorationCard = {
   render(decoration: Decoration): string {

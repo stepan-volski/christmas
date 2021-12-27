@@ -1,5 +1,5 @@
 import decorations from '../data/decorations';
-import Decoration from '../entity/Decoration';
+import Decoration from '../components/Decoration';
 import DecorationCard from '../components/DecorationCard';
 import { filters } from '../types/types';
 

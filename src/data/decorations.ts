@@ -1,5 +1,5 @@
 import data from './data';
-import Decoration from '../entity/Decoration';
+import Decoration from '../components/Decoration';
 
 const decorations: Decoration[] = [];
 

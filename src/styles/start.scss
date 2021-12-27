@@ -1,0 +1,40 @@
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 20vh;
+  min-width: 40vw;
+  background-color: rgba(31, 112, 127, 0.3);
+  border: 3px solid #278d9f;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 26px;
+  color: white;
+  
+}
+
+.startBtn {
+  height: 60px;
+  width: 320px;
+  background-color: rgba(31, 112, 127, 0.3);
+  border: 3px solid #278d9f;
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 22px;
+  color: white;
+
+  cursor: pointer;
+
+  :hover {
+    border-color: yellow;
+  }
+}

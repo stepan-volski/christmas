@@ -5,7 +5,7 @@ import Tree from './pages/Tree'
 import Start from './pages/Start'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import evaluation from './evaluation'
+import evaluation from './utils/evaluation'
 
 
 const routes = {
